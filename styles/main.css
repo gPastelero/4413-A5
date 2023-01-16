@@ -1,0 +1,143 @@
+table {
+    min-height: 50%;
+    border-spacing: 5px 0;
+}
+
+td {
+    padding: 10px 10px 10px 10px;
+    vertical-align: text-top;
+}
+
+ul {
+    text-align: justify;
+}
+
+.index {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.indexDark {
+    background-color: grey;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titleBig {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.titleSmall {
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.titleVSmall {
+    text-align: left;
+    font-size: x-large;
+}
+
+.line {
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.footNote {
+    border: 5px;
+    border-color: green;
+    border-style: dashed;
+    padding-bottom: 75px;
+    text-align: left;
+}
+
+.colOne {
+    background-color: rgb(95, 212, 95);
+    color: white;
+    min-width: 130px;
+    text-align: center;
+}
+
+.colOne2 {
+    color: black;
+    min-width: 130px;
+    text-align: center;
+}
+
+.colTwo {
+    text-align: justify;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    min-width: 274px;
+}
+
+.colThree {
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+.colThree2 {
+    color: black;
+    text-align: center;
+}
+
+.container {}
+
+.container2 {
+    padding: 10px;
+    background-color: rgb(46, 179, 46);
+    width: fit-content;
+    float: right;
+    margin: 5px 5px 5px 5px;
+}
+
+.imgSmall {
+    max-width: 150px;
+    height: auto;
+}
+
+.imgMed {
+    max-width: 200px;
+    height: 200px;
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+    float: right;
+    margin: 0 20px 0 20px;
+}
+
+
+.floating {
+    border-width: 3px;
+    border-style: solid;
+    border-color: blue;
+    background-color: white;
+    float: right
+}
+
+.preventFloat {
+    clear: right;
+}
+
+.content {
+    padding: 1em;
+}
+
+.notEnrolled {
+    background-color: white;
+    color: grey;
+}
+
+.enrolled {
+    background-color: lightblue;
+    color: black;
+}
+
+.error {
+    color: red;
+}
